@@ -19,12 +19,27 @@ body {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.box2,
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    flex-direction: column;
+    width: 300px;
+}
+
 .box1 {
     margin: 3%;
-    width: 800px;
+    width: 840px;
+    height: 800px;
+    background-color: white;
+}
+
+.box2 {
+    margin: 3%;
+    width: 840px;
     height: 800px;
     background-color: white;
 }
@@ -36,4 +51,11 @@ main {
     height: 800px;
 }
 
+ul {
 
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+}
