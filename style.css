@@ -25,9 +25,18 @@ main {
 form {
     display: flex;
     flex-wrap: wrap;
-    padding: 3%;
-    flex-direction: column;
+    padding: 5%;
+    
     width: 300px;
+}
+
+label {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    justify-content: center;
 }
 
 .box1 {
@@ -35,10 +44,11 @@ form {
     width: 840px;
     height: 800px;
     background-color: white;
+    display: flex;
 }
 
 .box2 {
-    margin: 3%;
+    margin:3%;
     width: 840px;
     height: 800px;
     background-color: white;
@@ -51,11 +61,18 @@ form {
     height: 800px;
 }
 
-ul {
-
+table {
+    width: 100%;
 }
+table, th, td {
+    border:1px solid black;
+  }
 
-li{
+
+/* ul li{
+    margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
-}
+} */
+
+
