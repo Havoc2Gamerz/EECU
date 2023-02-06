@@ -22,12 +22,18 @@ main {
     justify-content: center;
 }
 
+h2{
+    padding: 1vh 0vw 0vh 1vw;
+}
+
 form {
     display: flex;
     flex-wrap: wrap;
-    padding: 5%;
-    
-    width: 300px;
+    padding: 1vh 0vw 1vh 3vw;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+   
 }
 
 label {
@@ -45,6 +51,8 @@ input {
     height: 800px;
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .box2 {
@@ -75,4 +83,11 @@ table, th, td {
     flex-wrap: wrap;
 } */
 
+input#de {
+    display: flex;
+}
+
+/* [for~=CO] {
+    width: 500px;
+} */
 
