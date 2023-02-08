@@ -47,18 +47,15 @@ input {
 
 .box1 {
     margin: 3%;
-    width: 840px;
-    height: 800px;
+    width: 800px;
+    height: 1000px;
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .box2 {
     margin:3%;
-    width: 840px;
-    height: 800px;
+    width: 800px;
+    height: 1000px;
     background-color: white;
 }
 
@@ -105,7 +102,7 @@ input#de {
   }
 
   #myMenu li a {
-    padding: 12px;
+    padding: 5px;
     text-decoration: none;
     color: black;
     display: block
