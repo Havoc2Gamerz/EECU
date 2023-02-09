@@ -46,15 +46,15 @@ input {
 }
 
 .box1 {
-    margin: 3%;
-    width: 800px;
+    margin: 10px;
+    width: 600px;
     height: 1000px;
     background-color: white;
 }
 
 .box2 {
-    margin:3%;
-    width: 800px;
+    margin: 10px;
+    width: 600px;
     height: 1000px;
     background-color: white;
 }
@@ -112,3 +112,49 @@ input#de {
     background-color: #eee;
   }
 
+  .cal {
+    margin: 10px;
+    width: 400px;
+    height: 580px;
+    background-color: white;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 2px solid grey; 
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: grey;
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
