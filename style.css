@@ -50,6 +50,7 @@ input {
     width: 600px;
     height: 1000px;
     background-color: white;
+    overflow-y: scroll;
 }
 
 .box2 {
@@ -157,4 +158,8 @@ input#de {
     background-color: #323330;
     color: white;
     transition: 0.5s ease-in-out;
+}
+
+td {
+    height: 50px;
 }
